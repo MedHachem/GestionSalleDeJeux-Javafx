@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="686.0" prefWidth="920.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"fx:controller="Controllers.eventsController">
+   <children>
+      <BorderPane layoutX="-7.0" prefHeight="690.0" prefWidth="930.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #92cdf0 0%, #80D0C7 100%);" styleClass="gradient-background" stylesheets="@../../eclipse-workspace/SalleDeJeuxProjetF.zip_expanded/SalleDeJeuxProjet/src/css/styles.css">
+         <top>
+            <HBox prefHeight="78.0" prefWidth="930.0" style="-fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.2), 10.0, 0.0 ,0.0, 10.0);" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="138.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                              <Image url="@../../../../../Downloads/projetGestion/src/media/zarla-hero-arcade-1x1-2400x2400-20211228-ddv9dmf9t6b4y83663jg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label contentDisplay="CENTER" prefHeight="138.0" prefWidth="576.0" text="               Events" textAlignment="CENTER" textFill="#2129a1" wrapText="true">
+                     <font>
+                        <Font name="Monotype Corsiva" size="70.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                  </Label>
+                  <VBox prefHeight="118.0" prefWidth="66.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="30.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" style="-fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.2), 10.0, 0.0 ,0.0, 10.0);">
+                     <children>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                                    <Image url="@../SalleDeJeuxProjet/images/kisspng-abmeldung-button-icon-shut-cliparts-5a89cae38f35c7.1285697615189798115866.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="deconnexionbtn" mnemonicParsing="false"  prefHeight="26.0" prefWidth="143.0" text="Deconnexion" textFill="#2129a1">
+                           <font>
+                              <Font name="Monotype Corsiva" size="16.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </top>
+         <left>
+            <VBox prefHeight="550.0" prefWidth="290.0" style="-fx-background-color: rgba(177, 224, 252); -fx-background-radius: 10;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </BorderPane.margin>
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.2), 10.0, 0.0 ,0.0, 10.0);">
+                     <children>
+                        <ImageView fitHeight="100.0" fitWidth="155.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                                    <Image url="@../SalleDeJeuxProjet/images/kisspng-call-of-duty-modern-warfare-3-call-of-duty-4-mod-5afb384de2e4f5.4290873615264133899294.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <VBox prefHeight="100.0" prefWidth="137.0">
+                           <children>
+                              <Label alignment="BOTTOM_CENTER" prefHeight="34.0" prefWidth="183.0">
+                                 <font>
+                                    <Font name="Franklin Gothic Medium" size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="BOTTOM_CENTER" prefHeight="31.0" prefWidth="138.0" text="Jane Doe" textFill="#2129a1">
+                                 <font>
+                                    <Font name="Monotype Corsiva" size="28.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <Line endX="192.09291076660156" endY="-1.2427324056625366" startX="-100.0" stroke="#64b7ef">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Line>
+                  <VBox prefHeight="348.0" prefWidth="294.0" spacing="10.0">
+                     <children>
+                        <HBox fx:id="dashboardCltbtn" alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                          <Image url="@../SalleDeJeuxProjet/images/kisspng-dashboard-business-intelligence-management-informa-dashboard-5adceebc186944.3007069215244284761.png" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="dashboardbtn" mnemonicParsing="false" prefHeight="26.0" prefWidth="143.0" text="Dashboard" textFill="#2129a1">
+                                 <HBox.margin>
+                                    <Insets left="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font name="Monotype Corsiva" size="24.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox fx:id="eventsbtn" alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                          <Image url="@../SalleDeJeuxProjet/images/kisspng-counter-strike-global-offensive-counter-strike-c-team-5ac812c5c6fac6.5249703415230614458151.png" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="eventbtn" mnemonicParsing="false"  prefHeight="26.0" prefWidth="143.0" text="Evenements" textFill="#2129a1">
+                                 <font>
+                                    <Font name="Monotype Corsiva" size="24.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" style="-fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.2), 10.0, 0.0 ,0.0, 10.0);">
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                          <Image url="@../SalleDeJeuxProjet/images/kisspng-xbox-360-controller-xbox-one-controller-joystick-c-xbox-png-transparent-5a7a205359a710.6496094215179531073672.png" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="partiesbtn" mnemonicParsing="false"  prefHeight="26.0" prefWidth="143.0" text="Mes Parties" textFill="#2129a1">
+                                 <font>
+                                    <Font name="Monotype Corsiva" size="24.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                          <Image url="@../SalleDeJeuxProjet/images/kisspng-inbox-by-gmail-computer-icons-google-drive-email-gmail-5abe0c11509c55.3740387915224043693302.png" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="inboxBtn" mnemonicParsing="false"  prefHeight="26.0" prefWidth="143.0" text="Inbox" textFill="#2129a1">
+                                 <font>
+                                    <Font name="Monotype Corsiva" size="24.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="20.0" top="10.0" />
+               </BorderPane.margin>
+               <children>
+                  <VBox prefWidth="100.0" style="-fx-background-color: rgba(177, 224, 252); -fx-background-radius: 10;">
+                     <children>
+                        <Label alignment="TOP_LEFT" prefHeight="38.0" prefWidth="378.0" text="Evenements à venir" textFill="#2129a1">
+                           <font>
+                              <Font name="Monotype Corsiva" size="28.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="11.0" right="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <HBox prefHeight="65.0" prefWidth="586.0" spacing="20.0" style="-fx-background-color: rgba(177, 224, 252); -fx-background-radius: 10;">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="102.0" text="Event" textFill="#2129a1">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="30.0" top="20.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="102.0" text="    Date" textFill="#2129a1">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="30.0" top="20.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="66.0" prefWidth="120.0">
+                           <children>
+                              <Label prefHeight="20.0" prefWidth="98.0" text="Récompenses" textFill="#2129a1">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="20.0" top="20.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="102.0" text="Tarif" textFill="#2129a1">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="30.0" top="20.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="66.0" prefWidth="123.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="102.0" text="Durée" textFill="#2129a1">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="30.0" top="20.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="310.0" prefWidth="586.0" spacing="10.0" style="-fx-background-color: rgba(177, 224, 252); -fx-border-radius: 10;">
+                     <children>
+                        <VBox prefHeight="51.0" prefWidth="132.0">
+                           <children>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="Call Of Duty Comp" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="Gaming Nights" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="20.0" prefWidth="133.0" text="Sky Full of Calls" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="20.0" prefWidth="133.0" text="To the moon" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="310.0" prefWidth="88.0">
+                           <children>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="01/02/2022" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="16/12/2022" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="04/01/2023" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="15/03/2023" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="310.0" prefWidth="125.0">
+                           <children>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="       15 900 Dt" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="20.0" prefWidth="104.0" text="     159 000 Dt" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="20.0" prefWidth="104.0" text="       23 000 Dt" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets left="10.0" right="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="104.0" text="     200 000 Dt" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="310.0" prefWidth="88.0">
+                           <children>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="6.900 Dt" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="15 000 Dt" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="0.500 Dt" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="20 000 Dt" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="310.0" prefWidth="88.0">
+                           <children>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="de 15h à 20h" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="de 00h à 06h" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="de 15h à 17h" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="20.0" prefWidth="118.0" text="de 15h à 20h" textFill="#0d1363">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="assitancebtn" alignment="CENTER" prefHeight="60.0" prefWidth="200.0" style="-fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.2), 10.0, 0.0 ,0.0, 10.0);">
+                     <children>
+                        <VBox prefHeight="60.0" prefWidth="391.0">
+                           <children>
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: rgba(177, 224, 252); -fx-background-radius: 10;">
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" style="-fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.2), 10.0, 0.0 ,0.0, 10.0);">
+                                       <children>
+                                          <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                      <Image url="@../SalleDeJeuxProjet/images/—Pngtree—microphone%20icon%20very%20siple%20gradient_6608481.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Button fx:id="assistanceBtn" mnemonicParsing="false"  prefHeight="48.0" prefWidth="224.0" text="Assistance Vocale" textFill="#2129a1">
+                                             <font>
+                                                <Font name="Monotype Corsiva" size="24.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
